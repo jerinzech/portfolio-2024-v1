@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function Bio() {
   return (
-    <div>Bio</div>
+    <div className='bio-block'>Bio</div>
   )
 }
