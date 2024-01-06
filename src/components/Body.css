@@ -1,17 +1,8 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  /* background-color: #151515; */
-  color: #ffffff;
-}
-
 .body-view {
-  height: 83%;
-  margin: 0;
-  padding: 20px 40px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  background-color: green;
+  height: 90%;
+  margin: 5px 10px;
+  padding: 15px;
+  border-radius: 8px;
+
+  background-color: #313131;
 }

@@ -3,6 +3,8 @@ import './Footer.css'
 
 export default function Footer() {
   return (
-    <div className='footer-view'>Footer</div>
+    <div className='footer-view'>
+      <p>made by robots</p>
+    </div>
   )
 }

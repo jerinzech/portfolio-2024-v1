@@ -1,17 +1,14 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  /* background-color: #151515; */
-  color: #ffffff;
-}
-
 .footer-view {
-  height: 2%;
+  height: 2;
   margin: 0;
-  padding: 20px 40px;
+
+  font-family: "Roboto Mono", monospace;
+  font-size: 10px;
+  text-decoration: underline;
+
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   /* background-color: blue; */
 }
