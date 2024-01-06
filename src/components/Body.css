@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: #151515; */
+  color: #ffffff;
+}
+
+.body-view {
+  height: 83%;
+  margin: 0;
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: green;
+}

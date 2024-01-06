@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: #151515; */
+  color: #ffffff;
+}
+
+.header-view {
+  height: 15%;
+  padding: 0px 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* background-color: pink; */
+  align-items: center;
+}
+
+.nameLogo {
+  font-family: "Comforter", cursive;
+  font-size: 40px;
+}
+
+.fourPStar > img {
+  padding: 5px;
+  width: 50px;
+}
+
+.resumeButton {
+  font-family: "Roboto Mono", monospace;
+  font-size: 20px;
+  display: flex;
+  width: 180px;
+  height: 75px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #313131;
+}

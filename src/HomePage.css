@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: #151515; */
+  color: #ffffff;
+
+  /* 
+    font-family: 'Comforter', cursive;
+    font-family: 'Press Start 2P', system-ui;
+    font-family: 'Roboto Mono', monospace;
+     */
+}
+
+.main-view {
+  padding: 5px;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* background-color: yellow; */
+  background-color: #151515;
+}
+
+/* .header-view    {
+    height: 15vh;
+    width: 100%;
+    background-color: blue;
+}
+
+.body-view  {
+    height: 80vh;
+    width: 100%;
+    background-color: grey;
+
+}
+
+.footer-view    {
+    height: 5%;
+    width: 100%;
+    background-color: pink;
+}  */
