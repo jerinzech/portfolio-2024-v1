@@ -18,8 +18,9 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  /* background-color: yellow; */
-  background-color: #151515;
+
+  background-color: black;
+  background-image: url("src/assets/noise.png");
 }
 
 /* .header-view    {

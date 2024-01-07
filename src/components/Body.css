@@ -15,12 +15,15 @@
   grid-template-rows: 3fr 2fr;
   grid-column-gap: 15px;
   grid-row-gap: 15px;
+
+  background-image: url("src/assets/noise.png");
 }
 
 .intro-block {
   font-family: "Press Start 2P", system-ui;
   font-size: 50px;
   background-color: #151515;
+
   grid-area: 1 / 1 / 2 / 4;
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -164,7 +167,7 @@
 .instagram > img,
 .twitter > img {
   width: 24px;
-  aspect-ratio: auto;
+  /* aspect-ratio: auto; */
   filter: invert();
 }
 
