@@ -49,7 +49,7 @@
 .bio-block {
   background-color: #151515;
   grid-area: 1 / 6 / 2 / 8;
-  border-radius: 35px;
+  border-radius: 30px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
   display: grid;
@@ -59,12 +59,16 @@
   grid-row-gap: 0px;
 }
 
+.bio-tag {
+  color: #151515;
+}
+
 .bio-name {
   grid-area: 1 / 1 / 2 / 2;
   /* height: 15%; */
 
-  border-radius: 25px;
-  margin: 10px 10px 5px 10px;
+  border-radius: 15px;
+  margin: 15px 15px 7.5px 15px;
   padding: 25px;
 
   display: flex;
@@ -82,8 +86,8 @@
   flex-direction: column;
   /* justify-content: center; */
   /* align-items: center; */
-  border-radius: 25px;
-  margin: 5px 10px 5px 10px;
+  border-radius: 15px;
+  margin: 7.5px 15px 7.5px 15px;
   /* padding: 10px; */
 
   background-color: #313131;
@@ -100,15 +104,15 @@
 }
 .bio-location-map {
   margin: 5px 10px 10px 10px;
-  padding: 10px;
+  /* padding: 10px; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: 220px;
-  width: 350px;
+  height: 200px;
+  width: 300px;
 
-  /* background-color: yellow; */
+  background-color: yellow;
 }
 
 .bio-social {
