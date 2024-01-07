@@ -4,7 +4,7 @@
   height: 90%;
   margin: 5px 10px;
   padding: 15px;
-  border-radius: 40px;
+  border-radius: 35px;
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
   background-color: #313131;
 
@@ -35,7 +35,7 @@
 .avatar-block {
   background-color: #151515;
   grid-area: 1 / 4 / 2 / 6;
-  border-radius: 35px;
+  border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   display: flex;
   justify-content: center;
@@ -49,26 +49,28 @@
 .bio-block {
   background-color: #151515;
   grid-area: 1 / 6 / 2 / 8;
-  border-radius: 30px;
+  border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 0.3fr 1fr 0.3fr;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  padding: 10px;
 }
 
 .bio-tag {
-  color: #151515;
+  color: darkgrey;
+}
+
+.bio-value {
+  color: lightgrey;
 }
 
 .bio-name {
   grid-area: 1 / 1 / 2 / 2;
-  /* height: 15%; */
-
-  border-radius: 15px;
-  margin: 15px 15px 7.5px 15px;
+  border-radius: 10px;
   padding: 25px;
 
   display: flex;
@@ -80,15 +82,11 @@
 }
 .bio-location {
   grid-area: 2 / 1 / 3 / 2;
-  /* height: 70%; */
 
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
-  /* align-items: center; */
-  border-radius: 15px;
-  margin: 7.5px 15px 7.5px 15px;
-  /* padding: 10px; */
+
+  border-radius: 10px;
 
   background-color: #313131;
 }
@@ -103,24 +101,34 @@
   /* background-color: pink; */
 }
 .bio-location-map {
-  margin: 5px 10px 10px 10px;
-  /* padding: 10px; */
+  margin: 10px 10px 10px 10px;
+
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: 200px;
+  height: 205px;
   width: 300px;
+  border-radius: 10px;
 
   background-color: yellow;
+
+  overflow: hidden;
+}
+
+.bio-blr-map {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
 .bio-social {
   grid-area: 3 / 1 / 4 / 2;
   /* height: 15%; */
 
-  border-radius: 25px;
-  margin: 5px 10px 10px 10px;
+  border-radius: 15px;
+  /* margin: 5px 10px 10px 10px; */
   padding: 15px;
 
   display: flex;
@@ -129,6 +137,28 @@
   align-items: center;
 
   background-color: #313131;
+}
+
+.instagram,
+.github,
+.linkedIn,
+.twitter {
+  border-radius: 100px;
+  height: 50px;
+  width: 50px;
+  background-color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.instagram > img,
+.github > img,
+.linkedIn > img,
+.twitter > img {
+  width: 32px;
+  aspect-ratio: auto;
 }
 
 .myprojects-block {
