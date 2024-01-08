@@ -1,10 +1,9 @@
 import React from 'react'
-import FPStar from '../../assets/four-point-star.png' ;
-import BlrMap from '../../assets/blr-map.png' ;
-import GithubLogo from '../../assets/github.png' ;
-import TwitterLogo from '../../assets/twitter.png' ;
-import LinkedInLogo from '../../assets/linkedin.png' ;
-import InstagramLogo from '../../assets/instagram.png' ;
+import BlrMap from '../../../public/blr-map.png' ;
+import GithubLogo from '../../../public/github.png' ;
+import TwitterLogo from '../../../public/twitter.png' ;
+import LinkedInLogo from '../../../public/linkedin.png' ;
+import InstagramLogo from '../../../public/instagram.png' ;
 
 export default function Bio() {
   return (

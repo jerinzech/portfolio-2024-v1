@@ -1,6 +1,6 @@
 import React from 'react'
 import './Header.css'
-import FPStar from '../assets/four-point-star.png' ;
+import FPStar from '../../public/four-point-star.png' ;
 
 export default function Header() {
   return (

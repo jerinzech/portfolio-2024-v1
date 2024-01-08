@@ -1,5 +1,5 @@
 import React from 'react'
-import PAvatar from '../../assets/profile-avatar.png'
+import PAvatar from '../../../public/profile-avatar.png'
 
 export default function Avatar() {
   return (
