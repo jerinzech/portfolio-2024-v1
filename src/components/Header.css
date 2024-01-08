@@ -20,6 +20,7 @@
 }
 
 .resumeButton {
+  /* all: unset; */
   font-family: "Roboto Mono", monospace;
   font-size: 16px;
   display: flex;
@@ -31,4 +32,16 @@
   border-radius: 10px;
   background: #313131;
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.resumeButton:hover {
+  cursor: pointer;
+}
+
+.resumeButton:active {
+  /* position: absolute; */
 }

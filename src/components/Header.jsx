@@ -33,7 +33,7 @@ export function FourPStar()  {
 export function ResumeButton()  {
   return (
     <div className="resumeButton">
-      <p>resume</p>
+      <a href='' target='_blank'>resume</a>
     </div>
   );
 }
