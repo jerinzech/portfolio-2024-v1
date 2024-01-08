@@ -20,7 +20,7 @@
   flex-direction: column;
 
   background-color: black;
-  background-image: url("src/assets/noise.png");
+  background-image: url("public/noise.png");
 }
 
 /* .header-view    {
