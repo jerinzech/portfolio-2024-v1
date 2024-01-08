@@ -16,7 +16,7 @@
   grid-column-gap: 15px;
   grid-row-gap: 15px;
 
-  background-image: url("src/assets/noise.png");
+  /* background-image: url("src/assets/noise.png"); */
 }
 
 .intro-block {
