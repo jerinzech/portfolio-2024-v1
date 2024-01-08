@@ -194,7 +194,7 @@
 }
 
 .resources-block {
-  grid-area: 2 / 5 / 3 / 8;
+  grid-area: 2 / 6 / 3 / 8;
   border-radius: 35px;
 
   display: grid;
@@ -238,3 +238,34 @@
   justify-content: center;
   align-items: center;
 }
+
+/* .arrow {
+  color: #0c5449;
+  background-color: #f6f3ed;
+  margin: 1em 0;
+
+  &::after {
+    display: none;
+    padding-left: 8px;
+    content: url("src/assets/Arrow 4.svg");
+    -webkit-transition: transform 0.3s ease-out;
+    -moz-transition: transform 0.3s ease-out;
+    -ms-transition: transform 0.3s ease-out;
+    -o-transition: transform 0.3s ease-out;
+    transition: transform 0.3s ease-out;
+  }
+
+  &:hover + .arrow {
+    color: #0c5449; 
+    background-color: #f6f3ed;
+    display: block;
+
+    &::after {
+      -webkit-transform: translateX(30px);
+      -moz-transform: translateX(30px);
+      -ms-transform: translateX(30px);
+      -o-transform: translateX(30px);
+      transform: translateX(30px);
+    }
+  }
+} */

@@ -16,7 +16,7 @@ export default function Resources() {
         </p>
       </div>
       <div className="contact-me-block">
-        <p>
+        <p className='arrow'>
           contact me
         </p>
       </div>
