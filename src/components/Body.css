@@ -80,6 +80,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  font-weight: bold;
 
   background-color: #313131;
 }
@@ -100,6 +101,8 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+
+  font-weight: bold;
 
   /* background-color: pink; */
 }
@@ -189,8 +192,8 @@
 .circle {
   border-radius: 100%;
   background-color: #d86800;
-  height: 250px;
-  width: 250px;
+  height: 200px;
+  width: 200px;
 }
 
 .resources-block {
