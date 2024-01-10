@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #151515;
+  color: #ffffff;
+
+  /* 
+    font-family: 'Comforter', cursive;
+    font-family: 'Press Start 2P', system-ui;
+    font-family: 'Roboto Mono', monospace;
+     */
+}
+
+.loading-text {
+  font-family: "Comforter", cursive;
+  font-size: 5rem;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  background-image: "public/noise.png";
+
+  color: #fff;
+  /* text-align: center; */
+  /* font-family: Comforter; */
+  font-size: 5rem;
+  font-style: normal;
+  font-weight: 400;
+  /* line-height: 1rem; */
+}
+
+.name {
+  color: #e4ff99;
+  font-size: 9.3rem;
+}
