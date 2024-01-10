@@ -40,9 +40,16 @@
   font-size: 9.3rem;
 
   margin: 5rem;
+
+  clip-path: polygon(0 100%, 100% 100%, 100% 0, 0 0);
 }
 
 .tagLine {
   font-size: 3.125rem;
   word-spacing: 1rem;
+}
+
+.char {
+  transform: translateY(115px);
+  transition: transform 0.5s;
 }
