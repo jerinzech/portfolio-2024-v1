@@ -89,7 +89,8 @@ svg .path {
   transform: translate(-50%, -50%);
 }
 
-#name > path {
-  stroke-dasharray: 1;
-  /* stroke-dashoffset: 0px; */
+#name {
+  stroke-dasharray: 1px;
+  stroke-dashoffset: 0px;
+  animation: dash 10s linear;
 }
