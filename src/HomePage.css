@@ -23,11 +23,13 @@
   justify-self: center;
 
   background-color: #151515;
+  background-color: grey;
   /* background-image: url("public/noise.png"); */
 }
 
 .page {
   background-color: #151515;
+  background-color: grey;
   display: flex;
   justify-content: center;
   align-items: center;
