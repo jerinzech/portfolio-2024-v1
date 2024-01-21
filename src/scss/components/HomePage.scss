@@ -16,6 +16,21 @@
   // background-color: grey;
   /* background-image: url("public/noise.png"); */
   }
+
+  @include breakpoint(medium){
+    display: flex;
+    flex-direction: column;
+    padding: rem(5) rem(50);
+    width: rem(1150);
+    // height: 100vh;
+
+    // align-self: center;
+  // justify-self: center;
+
+  background-color: hsl(0, 0%, 8%);
+  // background-color: grey;
+  /* background-image: url("public/noise.png"); */
+  }
  
 
   
