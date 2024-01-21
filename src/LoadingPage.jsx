@@ -1,5 +1,5 @@
 import React from "react";
-import "./LoadingPage.css";
+
 import { gsap } from "gsap";
 import { TextPlugin } from "gsap/TextPlugin";
 // import { SplitText } from "gsap/SplitText.min.js";

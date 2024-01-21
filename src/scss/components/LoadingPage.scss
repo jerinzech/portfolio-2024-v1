@@ -1,7 +1,7 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+// * {
+//   margin: 0;
+//   padding: 0;
+//   box-sizing: border-box;
   /* background-color: black; */
   /* background-image: url(src/assets/noise.png); */
 
@@ -10,7 +10,7 @@
     font-family: 'Press Start 2P', system-ui;
     font-family: 'Roboto Mono', monospace;
      */
-}
+// }
 /* 
 .loading-text {
   height: 100vh;
@@ -82,15 +82,15 @@ svg .path {
   }
 } */
 
-#name {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+// #name {
+//   position: absolute;
+//   top: 50%;
+//   left: 50%;
+//   transform: translate(-50%, -50%);
+// }
 
-#name {
-  stroke-dasharray: 1px;
-  stroke-dashoffset: 0px;
-  animation: dash 10s linear;
-}
+// #name {
+//   stroke-dasharray: 1px;
+//   stroke-dashoffset: 0px;
+//   animation: dash 10s linear;
+// }

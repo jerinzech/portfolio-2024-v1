@@ -1,3 +1,6 @@
+@use '../utils/' as *;
+
+
 .body-view {
   font-family: "Roboto Mono", monospace;
 
@@ -6,7 +9,7 @@
   padding: 15px;
   border-radius: 35px;
   /* box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; */
-  /* background-color: #313131; */
+  background-color: hsl(0, 0%, 19%);
 
   /* Body grid layout */
 
@@ -184,14 +187,14 @@
 .linkedIn > img {
   width: 32px;
   aspect-ratio: auto;
-  filter: invert();
+  // filter: invert();
 }
 
 .instagram > img,
 .twitter > img {
   width: 24px;
   /* aspect-ratio: auto; */
-  filter: invert();
+  // filter: invert();
 }
 
 .myprojects-block {

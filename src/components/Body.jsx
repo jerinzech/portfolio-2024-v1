@@ -1,5 +1,5 @@
 import React from "react";
-import "./Body.css";
+
 import Intro from "./body_components/Intro";
 import Avatar from "./body_components/Avatar";
 import Bio from "./body_components/Bio";
