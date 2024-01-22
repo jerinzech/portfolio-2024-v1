@@ -14,7 +14,7 @@
 
   background-color: var(--dark-mode-main-bg);
   // background-color: grey;
-  background-image: url("public/noise.png"); 
+  background-image: url("/noise.png"); 
   }
 
   @include breakpoint-down(medium){
