@@ -2,14 +2,15 @@
 
 
 .body-view {
-  font-family: "Roboto Mono", monospace;
+  font-family: var(--font-roboto-mono);
 
   height: 90%;
-  margin: 5px 10px;
-  padding: 15px;
-  border-radius: 35px;
-  /* box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; */
-  background-color: hsl(0, 0%, 19%);
+  margin: rem(5) rem(10);
+  padding: rem(15);
+  border-radius: rem(35);
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; 
+  background-color: var(--dark-mode-body-bg);
+  color: var(--dark-mode-text);
 
   /* Body grid layout */
 
@@ -19,7 +20,7 @@
   grid-column-gap: 15px;
   grid-row-gap: 15px;
 
-  /* background-image: url("src/assets/noise.png"); */
+  // background-image: url("src/assets/noise.png"); 
 }
 
 .intro-block {
