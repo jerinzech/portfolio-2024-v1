@@ -13,4 +13,16 @@
   justify-content: center;
   align-items: center;
   /* background-color: blue; */
+
+  @include breakpoint-down(small){
+    display: grid;
+    flex-direction: column;
+    // padding: rem(5) rem(50);
+
+   
+
+    width: 100vw;
+   
+    border-radius: rem(30);
+  }
 }

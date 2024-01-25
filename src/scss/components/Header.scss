@@ -10,11 +10,21 @@
   /* background-color: pink; */
   align-items: center;
   color: var(--dark-mode-text);
+
+
+
 }
 
 .nameLogo {
   font-family: "Comforter", cursive;
   font-size: 40px;
+
+  @include breakpoint-down(small){
+
+    font-size: rem(30);
+    justify-content: space-around;
+    
+  }
 }
 
 .fourPStar > img {
