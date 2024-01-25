@@ -13,6 +13,13 @@
 
 
 
+  @include breakpoint-down(small){
+
+  
+    
+  }
+
+
 }
 
 .nameLogo {
@@ -23,6 +30,7 @@
 
     font-size: rem(30);
     justify-content: space-around;
+
     
   }
 }
