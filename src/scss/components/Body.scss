@@ -61,6 +61,8 @@
     grid-area:  2 / 1 / 2 / 2;
 
     font-size: rem(24);
+
+    text-align: center;
   }
 }
 
@@ -267,7 +269,7 @@
 
 
   display: grid;
-  grid-template-columns: repeat(1, 1fr) 0.5fr;
+  grid-template-columns: repeat(1, 1fr) 5fr;
   grid-template-rows: repeat(3, 1fr);
   grid-column-gap: rem(10);
   grid-row-gap: rem(10); 
@@ -283,7 +285,11 @@
   border-radius: rem(20);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
- 
+  @include breakpoint-down(small){
+
+    height: rem(115);
+    
+  }
 
   cursor: pointer;
 }
@@ -293,6 +299,14 @@
   border-radius: rem(20);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
+
+
+  @include breakpoint-down(small){
+
+    height: rem(115);
+    
+  }
+  
   cursor: pointer;
 }
 .togglebutton {
@@ -301,6 +315,11 @@
   border-radius: rem(20);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
+  @include breakpoint-down(small){
+
+    height: rem(250);
+    
+  }
 
   cursor: pointer;
 }
@@ -312,6 +331,13 @@
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
  
+  @include breakpoint-down(small){
+
+    height: rem(115);
+    
+  }
+
+
 
   cursor: pointer;
 }
