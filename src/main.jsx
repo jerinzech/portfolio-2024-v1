@@ -5,7 +5,7 @@ import LoadingPage from "./LoadingPage";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    {/* <HomePage /> */}
-    <LoadingPage />
+    <HomePage />
+    {/* <LoadingPage /> */}
   </React.StrictMode>
 );
